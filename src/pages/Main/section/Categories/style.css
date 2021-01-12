@@ -1,0 +1,110 @@
+.categories {
+  padding: 80px 0;
+}
+.categories__blocks{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 0 115px; 
+}
+.categories__blocks__text p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #00002B;
+  max-width: 140px;
+} 
+.categories__blocks__photo h2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: rgba(1, 1, 44, 0.5);
+  margin: 0;
+}
+.categories__blocks__text span{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 43, 0.5);
+}
+.categories__blocks__bl{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.categories__blocks__photo {
+  background: rgba(0, 0, 43, 0.2);
+  padding: 35px 60px 20px;
+  border-radius: 100px 100px 0px 0px;
+}
+.categories__blocks__photo, .categories__blocks__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.categories__blocks__bl:hover{
+  cursor: pointer;
+}
+.categories__blocks__bl:hover .categories__blocks__photo {
+  background: #FEEB10;
+}
+.categories__blocks__bl:hover .categories__blocks__photo h2{
+  color: #01012C;
+}
+.categories__blocks__bl:hover .categories__blocks__text p{
+  font-weight: 600;
+}
+
+
+@media (max-width: 1024px) {
+  .categories__blocks__photo h2 {
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.categories__blocks__text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    text-shadow: none;
+}
+
+.categories__blocks__text span {
+    font-size: 14px;
+    line-height: 17px;
+}
+}
+@media (max-width: 992px){
+  
+}
+@media (max-width: 768px){
+  
+}
+@media (max-width: 414px){
+
+}
+@media (max-width: 320px){
+
+}

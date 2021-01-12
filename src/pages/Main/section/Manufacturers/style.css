@@ -1,0 +1,176 @@
+.manufacturers{
+  padding: 80px 0;
+}
+.manufacturers__block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px){
+    .manufacturers__photo1{
+      width: 134px;
+      height: 54px;
+    }
+    .manufacturers__photo2{
+      width: 134px;
+      height: 42px;
+    }
+    .manufacturers__photo3{
+      width: 129px;
+      height: 56px;
+    }
+    .manufacturers__photo4{
+      width: 120px;
+      height: 76px;
+    }
+    .manufacturers__photo5{
+      width: 136px;
+      height: 38px;
+    }
+    .manufacturers__photo6{
+      width: 134px;
+      height: 60px;
+    }
+    .manufacturers__photo7{
+      width: 77px;
+      height: 98px;
+    }
+    .manufacturers__photo8{
+      width: 139px;
+      height: 55px;
+    }
+    .manufacturers__photo9{
+      width: 134px;
+      height: 34px;
+    }
+    .manufacturers__photo10{
+      width: 115px;
+      height: 68px;
+    }
+}
+@media (max-width: 768px){
+  .manufacturers__photo1{
+    width: 130px;
+    height: 52px;
+  }
+  .manufacturers__photo2{
+    width: 130px;
+    height: 42px;
+  }
+  .manufacturers__photo3{
+    width: 125px;
+    height: 55px;
+  }
+  .manufacturers__photo4{
+    width: 115px;
+    height: 75px;
+  }
+  .manufacturers__photo5{
+    width: 132px;
+    height: 36px;
+  }
+  .manufacturers__photo6{
+    width: 130px;
+    height: 58px;
+  }
+  .manufacturers__photo7{
+    width: 75px;
+    height: 96px;
+  }
+  .manufacturers__photo8{
+    width: 134px;
+    height: 54px;
+  }
+  .manufacturers__photo9{
+    width: 130px;
+    height: 32px;
+  }
+  .manufacturers__photo10{
+    width: 112px;
+    height: 66px;
+  }
+}
+@media (max-width: 414px){
+  .manufacturers__photo1{
+    width: 69.07px;
+    height: 27.63px;
+  }
+  .manufacturers__photo2{
+    width: 69.07px;
+    height: 22.31px;
+  }
+  .manufacturers__photo3{
+    width: 66.41px;
+    height: 29.22px;
+  }
+  .manufacturers__photo4{
+    width: 69.06px;
+    height: 46.04px;
+  }
+  .manufacturers__photo5{
+    width: 69.06px;
+    height: 19.38px;
+  }
+  .manufacturers__photo6{
+    width: 69.07px;
+    height: 30.81px;
+  }
+  .manufacturers__photo7{
+    width: 39.85px;
+    height: 51px;
+  }
+  .manufacturers__photo8{
+    width: 71.19px;
+    height: 28.69px;
+  }
+  .manufacturers__photo9{
+    width: 69.06px;
+    height: 16.96px;
+  }
+  .manufacturers__photo10{
+    width: 71.48px;
+    height: 42.4px;   
+  }
+}
+@media (max-width: 320px){
+  .manufacturers__photo1{
+    width: 69px;
+    height: 28px;
+  }
+  .manufacturers__photo2{
+    width: 70px;
+    height: 23px;
+  }
+  .manufacturers__photo3{
+    width: 67px;
+    height: 30px;
+  }
+  .manufacturers__photo4{
+    width: 69px;
+    height: 46px;
+  }
+  .manufacturers__photo5{
+    display: none;
+  }
+  .manufacturers__photo6{
+    width: 69px;
+    height: 19px;
+  }
+  .manufacturers__photo7{
+    width: 69px;
+    height: 31px;
+  }
+  .manufacturers__photo8{
+    width: 40px;
+    height: 51px;
+  }
+  .manufacturers__photo9{
+    width: 72px;
+    height: 29px;
+  }
+  .manufacturers__photo10{
+    display: none
+  }
+}

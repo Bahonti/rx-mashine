@@ -1,0 +1,130 @@
+.advertising{
+  position: relative;
+  background: rgba(0, 0, 43, 0.23);
+}
+.right h5 {
+  margin: 0;
+  font-size: 30px;
+}
+.right p {
+  font-size: 16px;
+}
+.right button {
+  background: #FEEB10;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+.kamaz2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-45%);
+  z-index: 1;
+  left: 54%;
+}
+.right {
+  width: 50%;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.right .block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  border-radius: 5px;
+  padding: 18px;
+  text-align: center;
+  background-color: rgba(0, 0, 43, 0.3);
+}
+.commercial {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background: rgba(0, 0, 43, 0.7);
+}
+.left {
+  position: relative;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.left::after {     
+  content: '';
+  transform: skewX(-40deg);
+  background: #3b3b5c;
+  width: calc(100% + 90px);
+  left: -50px;
+  height: 100%;
+  position: absolute;
+}
+.left::before {    
+  content: '';
+  transform: skewX(-27deg);
+  width: calc(100% + 100px);
+  height: 100%;
+  background: #c4c4ce;
+  left: -100px;
+  position: absolute;
+  z-index: 1;
+}
+.union {
+  z-index: 2;
+  position: relative;
+}
+.union span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (max-width: 1024px) {
+  .union img {
+    width: 340px;
+  }
+  .kamaz2 {
+      width: 138px;
+  }
+  .union span {
+      font-size: 15px;
+      line-height: 125%;
+  }
+  .right h5 {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .right p {
+      font-size: 11px;
+      line-height: 13px;
+      margin: 5px 0 10px;
+  }
+
+  .right button {
+      font-size: 8px;
+      line-height: 10px;
+  }
+
+  .right .block {
+      padding: 12px;
+  }
+}
+
+@media (max-width: 992px){
+    
+}
+@media (max-width: 768px){
+  
+}
+@media (max-width: 414px){
+
+}
+@media (max-width: 320px){
+
+}

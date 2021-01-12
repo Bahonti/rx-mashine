@@ -1,0 +1,32 @@
+input{
+  background: #fff;
+  border: 1px solid rgba(0, 0, 43, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 11px 16px;
+}
+.menu__input input{
+  width: 370px;
+}
+input::placeholder{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+.input {
+  position:  relative;
+}
+.input__icon {
+  right: 4px;
+  top: 3px;
+  background: #FEEB10;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+  padding: 6px;
+}

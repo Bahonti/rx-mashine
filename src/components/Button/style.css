@@ -1,0 +1,31 @@
+button{
+  background: #fff;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 38px;
+  outline: inherit;
+}
+.primary{
+  background: #FEEB10;
+  color: #00002B;
+  border: none;
+}
+.default{
+  border: 1px solid #FEEB10;
+  border-radius: 4px;
+  color: #FEEB10;
+  background: none;
+}
+button img {
+  margin-right: 5px;
+}
