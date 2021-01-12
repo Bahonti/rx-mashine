@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import image from "../../images/images";
 
-const SearchSelect = ({ onChange }) => {
+const SearchSelect = ({ onChange, closeModal }) => {
   const [value, setValue] = useState("");
   const [picket, setPicket] = useState(null);
   const [valueClass, setValueClass] = useState("");
@@ -30,12 +30,18 @@ const SearchSelect = ({ onChange }) => {
                 onClick={() => setPicket(item)}
                 className={item === picket ? "active" : ""}
               >
-                {item.label}
+                <a>{item.label}</a>
               </li>
             );
           })}
       </ul>
-      <a className="search__btn" onClick={() => onChange(picket)}>
+      <a
+        className="search__btn"
+        onClick={() => {
+          closeModal();
+          onChange(picket);
+        }}
+      >
         Выбрать
       </a>
     </div>

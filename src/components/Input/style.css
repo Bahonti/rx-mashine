@@ -6,7 +6,7 @@ input{
   padding: 11px 16px;
 }
 .menu__input input{
-  width: 370px;
+  width: 340px;
 }
 input::placeholder{
   font-family: Montserrat;

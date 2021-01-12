@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 
-const Catolog = ({ className }) => {
+const Catolog = ({ className, setClassCatalog }) => {
   const [tab, setTab] = useState(1);
   return (
     <div className={className}>
@@ -81,41 +81,59 @@ const Catolog = ({ className }) => {
           <div className="catalog__data">
             <div className="data__block">
               <span>А</span>
-              <p>Автобетоносмесители, автомиксеры</p>
-              <p>Асфальтобетонные, асфальтные заводы</p>
+              <p onClick={() => setClassCatalog(false)}>
+                Автобетоносмесители, автомиксеры
+              </p>
+              <p onClick={() => setClassCatalog(false)}>
+                Асфальтобетонные, асфальтные заводы
+              </p>
               <span>Б</span>
-              <p>Бетонные заводы, мобильные БСУ</p>
-              <p>Бетононасосы, автобетононасосы</p>
-              <p>Бетонораздаточные стрелы</p>
-              <p>
+              <p onClick={() => setClassCatalog(false)}>
+                Бетонные заводы, мобильные БСУ
+              </p>
+              <p onClick={() => setClassCatalog(false)}>
+                Бетононасосы, автобетононасосы
+              </p>
+              <p onClick={() => setClassCatalog(false)}>
+                Бетонораздаточные стрелы
+              </p>
+              <p onClick={() => setClassCatalog(false)}>
                 Бетоносмесительные установки БСУ, <br />
                 стационарные бетоносмесители
               </p>
-              <p>Бетоноукладчики</p>
-              <p>Битумные установки</p>
+              <p onClick={() => setClassCatalog(false)}>Бетоноукладчики</p>
+              <p onClick={() => setClassCatalog(false)}>Битумные установки</p>
               <span>В</span>
-              <p>Вибраторы для бетона глубинные</p>
-              <p>Вибропрессы</p>
-              <p>Виброрейки для бетона</p>
+              <p onClick={() => setClassCatalog(false)}>
+                Вибраторы для бетона глубинные
+              </p>
+              <p onClick={() => setClassCatalog(false)}>Вибропрессы</p>
+              <p onClick={() => setClassCatalog(false)}>
+                Виброрейки для бетона
+              </p>
               <span>З</span>
               <p>Затирочные машины по бетону</p>
             </div>
             <div className="data__block">
               <span>П</span>
-              <p>
+              <p onClick={() => setClassCatalog(false)}>
                 Парогенераторы промышленные,
                 <br /> термомасляные нагреватели
               </p>
               <span>Р</span>
-              <p>Растворонасосы</p>
-              <p>Растворосмесители</p>
+              <p onClick={() => setClassCatalog(false)}>Растворонасосы</p>
+              <p onClick={() => setClassCatalog(false)}>Растворосмесители</p>
               <span>С</span>
-              <p>Силосы для цемента</p>
-              <p>Стационарные бетононасосы</p>
+              <p onClick={() => setClassCatalog(false)}>Силосы для цемента</p>
+              <p onClick={() => setClassCatalog(false)}>
+                Стационарные бетононасосы
+              </p>
               <span>Т</span>
-              <p>Торкрет-установки, шприц-машины</p>
+              <p onClick={() => setClassCatalog(false)}>
+                Торкрет-установки, шприц-машины
+              </p>
               <span>Ш</span>
-              <p>Штукатурные станции</p>
+              <p onClick={() => setClassCatalog(false)}>Штукатурные станции</p>
             </div>
           </div>
         )}

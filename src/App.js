@@ -7,11 +7,9 @@ import "./style/index.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-        <Main />
-        <Footer />
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

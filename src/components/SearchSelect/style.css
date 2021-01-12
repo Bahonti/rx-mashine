@@ -1,5 +1,5 @@
 .searchSelect {
-  position:  absolute;
+  /* position:  absolute; */
   width: 270px;
   height: 374px;
   z-index: 5;
@@ -15,7 +15,6 @@
   align-items:  flex-start;
   background: rgba(255, 255, 255, 0.18);
   margin-bottom: 15px;
-  overflow-y: scroll;
   height: 230px;
 }
 
@@ -30,6 +29,7 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  margin-top: 0;
 }
 .searchSelect ul li{
   font-family: Montserrat;
@@ -48,19 +48,28 @@
    background: rgba(0, 0, 43, 0.6);
 }
 .searchSelect__photo {
-  position:  relative;
+  position: relative;
+  background: rgba(255, 255, 255, 0.18);
+  padding: 0 10px;
 }
 .searchSelect__photo img {
   position:  absolute;
-  right: 5px;
+  right: 15px;
   z-index: 2;
   top: 30%;
 }
 .searchSelect__photo input {
   width: 100%;
   z-index: -1;
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0);
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.34);
+  border-radius: 0;
+  outline: 0;
 }
-ю.searchSelect .active {
+.searchSelect ul li a {
+  margin-left: 10px;
+}
+.searchSelect .active {
   background: rgba(0, 0, 43, 0.6);
 }

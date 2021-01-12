@@ -14,7 +14,9 @@ const Header = () => {
   const [openRegister, setOpenRegister] = useState(false);
   const [openAuth, setOpenAuth] = useState(false);
   const [value, setValue] = useState({ value: "moskva", label: "Москва" });
-  const [classCatalog, setClassCatalog] = useState("false");
+  const [classCatalog, setClassCatalog] = useState(false);
+  const [open, setOpen] = useState(false);
+  const closeModal = () => setOpen(false);
   return (
     <header className="header">
       <div className="header__contacts">
@@ -22,20 +24,27 @@ const Header = () => {
           <ul className="contacts">
             <li className="adress">
               <div className="tooltipBoundary">
+                <button
+                  type="button"
+                  className="adress__button"
+                  onClick={() => setOpen(true)}
+                >
+                  {value.label}
+                </button>
                 <Popup
+                  open={open}
                   contentStyle={{
                     background: "#01012C",
                   }}
                   arrowStyle={{ color: "#01012C" }}
-                  trigger={
-                    <button type="button" className="adress__button">
-                      {value.label}
-                    </button>
-                  }
-                  position="bottom center"
-                  closeOnDocumentClick
+                  // closeOnDocumentClick
+                  onClose={closeModal}
+                  position="bottom left"
                 >
-                  <SearchSelect onChange={val => setValue(val)} />
+                  <SearchSelect
+                    closeModal={closeModal}
+                    onChange={val => setValue(val)}
+                  />
                 </Popup>
               </div>
             </li>
@@ -118,7 +127,7 @@ const Header = () => {
               Заявки
             </a>
           </li>
-          <li className="menu__link favorites hidden">
+          <li className="favorites hidden">
             <a>
               <img src={image("zhul")} alt="" />
               Избранное
@@ -167,6 +176,7 @@ const Header = () => {
       />
       <Catalog
         className={classCatalog === true ? "catalog__block" : "catalog__none"}
+        setClassCatalog={setClassCatalog}
       />
     </header>
   );
