@@ -22,8 +22,8 @@
   margin: 0 20px;
 } 
 .popularStores__title { grid-area: 1 / 1 / 2 / 4; } 
-.popularStores__photo:first-child { grid-area: 2 / 1 / 4 / 3; } 
-.popularStores__photo:nth-child(2) { grid-area: 2 / 3 / 3 / 4; } 
+.popularStores__photo:nth-child(2) { grid-area: 2 / 1 / 4 / 3; } 
+.popularStores__photo:nth-child(3) { grid-area: 2 / 3 / 3 / 4; } 
 .popularStores__photo:last-child { grid-area: 3 / 3 / 4 / 4; }
 
 .parent img {
@@ -47,7 +47,7 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 37px;
   display: flex;
   align-items: center;
@@ -109,12 +109,24 @@ button.tooltip__button:hover{
 .popup-content div {
   color: rgba(0, 0, 43, 0.2) !important;
 }
-@media (max-width: 1024px) {
 
+@media (max-width: 1200px) {
+  button.tooltip__button {
+    right: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  
 }
 
 @media (max-width: 992px){
-    
+  button.tooltip__button {
+    right: 42%;
+  }
+  .popularStores__text span {
+    font-size: 17px;
+  }
 }
 @media (max-width: 768px){
   

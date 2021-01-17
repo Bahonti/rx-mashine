@@ -4,118 +4,137 @@
   position: relative;
   padding: 100px 0;
 }
-  h1{
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 55px;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(136, 37, 37, 0.25);
-  }
-  .main__header p{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .main__photo{
-    position: absolute;
-    top: 100px;
-    right: 0;
-  }
+h1{
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(136, 37, 37, 0.25);
+}
+.main__header p{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main__photo{
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
 
-  @media (max-width: 1024px){
-    h1 {
-      font-size:  40px;
-      line-height: 49px;
-    }
-  
-  .main__photo {
-      top: 150px;
-    }
+@media (max-width: 1200px){
+  .main__photo{
+    width: 600px;
+    top: 150px;
+  }
   
   .main__photo img {
-      width: 560px;
-      height: 270px;
-    }
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  
+}
+
+@media (max-width: 1024px){
+  h1 {
+    font-size:  40px;
+    line-height: 49px;
+  }
+
+.main__photo img {
+    width: 560px;
+    height: 270px;
+  }
+
+.main__header {
+    padding: 90px 0;
+  }
+}
+@media (max-width: 992px){
+  .main__photo {
+    width: auto;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  .main__photo img {
+    width: 496px;
+  }
+}
+@media (max-width: 768px){
+  h1 {
+    font-size: 35px;
+    line-height: 43px;
+  }
+  .main__header p {
+      font-size: 14px;
+      line-height: 17px;
+  }
+  .main__header {
+      padding: 30px 0;
+  }
+  .main__photo img {
+      width: 375px;
+      height: 180px;
+  }
+  .main__photo {
+      top: 75px;
+      right: -8px;
+  }
+}
+@media (max-width: 414px){
+  h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 8px;
+  }
+  .main__header p {
+      font-size: 12px;
+      line-height: 15px;
+      margin: 0;
+  }
+  .main__header {
+      padding: 20px 0 158px;
+  }
+  .main__photo {
+      top: 150px;
+      right: 0;
+  }
+  .main__photo img {
+      width:  353px;
+      height: 173px;
+  }
+}
+@media (max-width: 320px){
+  .main__photo img {
+    width: 292px;
+    height: 137px;
+  }
+  
+  .main__photo {
+      top: 136px;
+  }
   
   .main__header {
-      padding: 90px 0;
-    }
+      padding: 15px 0 124px;
   }
-  @media (max-width: 992px){
-    .main__photo img {
-      width: 496px;
-    }
+  
+  h1 {
+      font-size: 23px;
+      line-height: 28px;
   }
-  @media (max-width: 768px){
-    h1 {
-      font-size: 35px;
-      line-height: 43px;
-    }
-    .main__header p {
-        font-size: 14px;
-        line-height: 17px;
-    }
-    .main__header {
-        padding: 30px 0;
-    }
-    .main__photo img {
-        width: 375px;
-        height: 180px;
-    }
-    .main__photo {
-        top: 75px;
-        right: -8px;
-    }
+  
+  .main__header p {
+      font-size: 13px;
+      line-height: 16px;
   }
-  @media (max-width: 414px){
-    h1 {
-      font-size: 25px;
-      line-height: 30px;
-      margin-bottom: 8px;
-    }
-    .main__header p {
-        font-size: 12px;
-        line-height: 15px;
-        margin: 0;
-    }
-    .main__header {
-        padding: 20px 0 158px;
-    }
-    .main__photo {
-        top: 150px;
-        right: 0;
-    }
-    .main__photo img {
-        width:  353px;
-        height: 173px;
-    }
-  }
-  @media (max-width: 320px){
-    .main__photo img {
-      width: 292px;
-      height: 137px;
-    }
-    
-    .main__photo {
-        top: 136px;
-    }
-    
-    .main__header {
-        padding: 15px 0 124px;
-    }
-    
-    h1 {
-        font-size: 23px;
-        line-height: 28px;
-    }
-    
-    .main__header p {
-        font-size: 13px;
-        line-height: 16px;
-    }
-  }
+}

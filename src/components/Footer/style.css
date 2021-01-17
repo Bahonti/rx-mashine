@@ -1,6 +1,7 @@
 .footer__main{
   background: rgba(0, 0, 43, 0.65);
   padding: 25px 0;
+  position: relative;
 }
 .footer__hiden{
   display: none;
@@ -138,8 +139,9 @@
 }
 .footer__img{
   position: absolute;
-  right: -90px;
-  top: 20px;
+  right: 0;
+  bottom: 40px;
+  width: 26%;
 }
 .media__block a {
   background: rgba(0, 0, 43, 0.7);
@@ -160,66 +162,64 @@
     width: 170px;
   }
   .footer__img {
-      right: -22px;
-      top: 50px;
+    right: 60px;
   }
   .footer__img img {
-      width: 290px;
-      height: auto;
+    width: 220px;
+    height: auto;
   }
   .media__title {
-      margin-top: 25px;
+    margin-top: 25px;
   }
   .footer__text {
-      margin-top: 30px;
+    margin-top: 30px;
   }
 }
-
 @media (max-width: 992px){
   .footer__logo img {
     width: 154px;
     height: 63.7px;
   }
   .footer__text {
-      padding-top: 5px;
-      border-top: 1px solid rgba(255, 255, 255, 0.3);
-      margin-top: 18px;
-  }
-  .footer p {
-      font-size: 6px;
-      line-height: 7px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 18px;
   }
   .footer__text p:first-child {
-      font-size: 10px;
-      line-height: 12px;
+    font-size: 10px;
+    line-height: 12px;
   }
   .footer p img {
-      width: 6.01px;
-      height: 6px;
+    width: 6.01px;
+    height: 6px;
   }
   .footer__menu span {
     font-size: 14px;
     line-height: 17px;
   }
   .footer__menu ul li a {
-      font-size: 12px;
-      line-height: 15px;
-      margin-bottom: 7px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 7px;
   }
+
+  .footer__menu ul li a.footer__info {
+    font-size: 14px;
+  }
+
   .media__title {
-      font-size: 14px;
-      line-height: 17px;
+    font-size: 14px;
+    line-height: 17px;
   }
   .media__block a {
-      margin-top: 8px;
-  }
-  .footer__img img {
-      width: 252.26px;
-      height: 188px;
+    margin-top: 8px;
   }
   .footer__img {
-      top: 0px;
-      right: -50px;
+    bottom: 30px;
+    width: auto;
+  }
+  .footer__img img {
+    width: 200px;
   }
 }
 @media (max-width: 768px){

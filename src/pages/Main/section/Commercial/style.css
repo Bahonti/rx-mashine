@@ -84,6 +84,13 @@
   font-size: 20px;
   line-height: 28px;
 }
+
+@media (max-width: 1200px) {
+  .kamaz2 {
+    left: 61%;
+  }
+}
+
 @media (max-width: 1024px) {
   .union img {
     width: 340px;

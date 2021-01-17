@@ -81,9 +81,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="footer__img">
-              <img src={image("footerImg")} alt="#" />
-            </div>
           </div>
           <div className="footer footer__text">
             <p>
@@ -94,6 +91,9 @@ const Footer = () => {
             <p>Договор оферты</p>
             <p>Политика конфиденциальности</p>
           </div>
+        </div>
+        <div className="footer__img">
+          <img src={image("footerImg")} width="100%" alt="#" />
         </div>
       </div>
       <div className="footer__hiden">

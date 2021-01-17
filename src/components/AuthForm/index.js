@@ -28,13 +28,15 @@ const AuthForm = ({ openAuth, setOpenAuth, setOpenRegister }) => {
           <div className="content">
             <form onSubmit={handleSubmit(onSubmit)} className="modal__form">
               <input
+                type="text"
                 name="firstName"
                 ref={register}
                 placeholder="Адрес электронной почты"
                 className="input__firstName modal__input"
               />
               <input
-                name="lastName"
+                type="password"
+                name="password"
                 ref={register}
                 placeholder="Пароль"
                 className="input__lastName modal__input"

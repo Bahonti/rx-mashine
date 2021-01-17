@@ -87,11 +87,27 @@
 .marketplace__photo img {
   width: 360px;
 }
+@media (max-width: 1200px) {
+  .marketplace__span span {
+    margin-left: 0;
+    z-index: 1;
+    font-size: 44px;
+    line-height: normal;
+  }
+}
 @media (max-width: 1024px) {
   .marketplace__span span {
-    font-size: 43px;
-    line-height: 50px;
-    margin-left: 73px;
+    font-size: 35px;
+    margin-left: 40px;
+  }
+  .marketplace__text--logo h3 {
+    font-size: 60px;
+  }
+  .marketplace__text--p p {
+    font-size: 20px;
+  }
+  .marketplace__text {
+    margin-left: -70px;
   }
 }
 

@@ -84,3 +84,12 @@
 .catalog__data .data__block p:hover{
   color: #FF5C00;
 }
+
+@media (max-width: 992px) {
+  .catalog__menu li a {
+    font-size: 13px;
+  }
+  .catalog__data .data__block p {
+    font-size: 13px;
+  }
+}
