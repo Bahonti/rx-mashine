@@ -420,6 +420,27 @@ li.menu__link.favorites a:hover {
   display: flex;
   justify-content: center; 
 }
+
+
+div#popup-2::before {
+  content:  '';
+  background: rgb(1, 1, 44);
+  width: 20px;
+  height: 20px;
+  position:  absolute;
+  top: -10px;
+  left: 40px;
+  transform: rotate(45deg);
+}
+
+div#popup-2 {
+  position: absolute !important;
+  left: 88px;
+  top: 68px;
+}
+
+
+
   @media (max-width: 1024px){
     li.menu__link a {
       font-size: 11px;
