@@ -112,6 +112,20 @@
 }
 
 @media (max-width: 992px){
+  .marketplace__span span {
+    font-size: 30px;
+    margin-left: 26px;
+  }
+  .marketplace__text--logo h3 {
+    font-size: 40px;
+  }
+  .marketplace__text--logo h3 span {
+    font-size: 28px;
+  }
+  .marketplace__text--p p {
+    font-size: 15px;
+    line-height: 20px;
+  }
   .categories__blocks__photo {
     padding: 30px 40px 10px;
   }
@@ -152,6 +166,11 @@
   .categories__blocks__text span {
     font-size: 10px;
     line-height: 12px;
+  }
+
+  .marketplace__span span {
+    font-size: 20px;
+    margin-left: 0;
   }
 }
 @media (max-width: 320px){

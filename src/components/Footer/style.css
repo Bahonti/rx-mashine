@@ -228,20 +228,23 @@
     line-height: 20px;
   }
   .footer {
-      padding-right: 50px;
+    padding-right: 30px;
   }
   .footer__img img {
-      width: 160px;
-      height: 119px;
+    width: 160px;
+    height: 119px;
   }
   .footer__img {
-      top: 60px;
-      right: -35px;
+    top: 114px;
+    right: 86px;
   }
 }
 @media (max-width: 414px){
   .footer__hiden{
     display: block;
+  }
+  .footer {
+    flex-direction: column;
   }
 }
 @media (max-width: 320px){

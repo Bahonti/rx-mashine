@@ -441,121 +441,124 @@ div#popup-2 {
 
 
 
-  @media (max-width: 1024px){
-    li.menu__link a {
-      font-size: 11px;
-      line-height: 13px;
-    }  
+@media (max-width: 1024px){
+  li.menu__link a {
+    font-size: 11px;
+    line-height: 13px;
+  }  
+}
+@media (max-width: 994px){
+  .d-flex ul li:first-child {
+    margin-right: 10px;
   }
-  @media (max-width: 994px){
-    .d-flex ul li:first-child {
-      margin-right: 10px;
-    }
-    .menu__input input {
-      width: 270px;
-      padding: 9px 16px;
-    }
-    
-    .menu__catalog a {
-        font-size: 12px;
-        line-height: 15px;
-    }
-    
-    .input__icon {
-        padding: 5px;
-        right: 3px;
-        top: 2px;
-    }
+  .menu__input input {
+    width: 270px;
+    padding: 9px 16px;
   }
-  @media (max-width: 768px){
-    ul.contacts.buttons {
-      width: 75%;
-    }
-    ul.contacts.buttons li button {
-      font-size: 8px;
+  
+  .menu__catalog a {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  .input__icon {
+    padding: 5px;
+    right: 3px;
+    top: 2px;
+  }
+}
+@media (max-width: 768px){
+  ul.contacts.buttons {
+    width: 75%;
+  }
+  ul.contacts.buttons li button {
+    font-size: 8px;
+    line-height: 10px;
+    height: 20px;
+    padding: 0 8px;
+  }
+  li.headder__logo img {
+    height: 40px;
+  }
+  
+  .menu__catalog a {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  .menu__catalog {
+    padding: 8px 10px;
+  }
+  
+  .menu__input input {
+    width: 198px;
+    padding: 6px 8px;
+  }
+  
+  input::placeholder {
+    font-size: 10px;
+  }
+  
+  .input__icon {
+    padding: 4px 6px;
+  }
+  
+  .input__icon img {
+    width:  11px;
+    height:  11px;
+  }
+  
+  li.menu__link a {
+    font-size: 9px;
+    line-height: 11px;
+  }
+  li.favorites a {
+    font-size: 9px;
+  }
+  
+  li.menu__link a img {
+    width:  13px;
+    height: 13px;
+  }
+  .d-flex {
+    padding: 5px 0;
+  }
+  
+  button.adress__button {
+    height: auto;
+  }
+}
+@media (max-width: 414px){
+  ul.contacts.buttons {
+    display:  none;
+  }
+  .adress{
+    order:2;
+  }
+  .contact{
+    order:3;
+  }
+  .contacts li a {
+      font-size:  9px;
       line-height: 10px;
-      height: 20px;
-      padding: 0 8px;
-    }
-    li.headder__logo img {
-      height: 40px;
-    }
-    
-    .menu__catalog a {
-        font-size: 10px;
-        line-height: 12px;
-    }
-    
-    .menu__catalog {
-        padding: 8px 10px;
-    }
-    
-    .menu__input input {
-        width: 198px;
-        padding: 6px 8px;
-    }
-    
-    input::placeholder {
-        font-size: 10px;
-    }
-    
-    .input__icon {
-        padding: 4px 6px;
-    }
-    
-    .input__icon img {
-        width:  11px;
-        height:  11px;
-    }
-    
-    li.menu__link a {
-        font-size: 9px;
-        line-height: 11px;
-    }
-    
-    li.menu__link a img {
-        width:  13px;
-        height: 13px;
-    }
-    .d-flex {
-      padding: 5px 0;
-    }
-    
-    button.adress__button {
-        height: auto;
-    }
   }
-  @media (max-width: 414px){
-    ul.contacts.buttons {
-      display:  none;
-    }
-    .adress{
-      order:2;
-    }
-    .contact{
-      order:3;
-    }
-    .contacts li a {
-        font-size:  9px;
-        line-height: 10px;
-    }
-    .header__hidden{
-      display: flex;
-      background: rgba(0, 0, 43, 0.5);
-      padding: 8px 25px;
-    }
-    li.menu__link.hidden{
-      display: none;
-    }
-    ul.menu.hidden-menu {
-      display:  flex;
-      justify-content:  space-between;
-    }
-    li.menu__link a {
-      font-size: 12px;
-      line-height: 15px;
-    }
+  .header__hidden{
+    display: flex;
+    background: rgba(0, 0, 43, 0.5);
+    padding: 8px 25px;
   }
-  @media (max-width: 320px){
+  li.menu__link.hidden{
+    display: none;
+  }
+  ul.menu.hidden-menu {
+    display:  flex;
+    justify-content:  space-between;
+  }
+  li.menu__link a {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 320px){
 
-  }
+}

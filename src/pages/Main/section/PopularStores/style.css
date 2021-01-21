@@ -129,7 +129,16 @@ button.tooltip__button:hover{
   }
 }
 @media (max-width: 768px){
-  
+  .popularStores__title img {
+    width: 28%;
+  }
+  .popularStores__text span {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .popularStores__text p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 414px){
 

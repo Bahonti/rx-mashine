@@ -72,23 +72,23 @@ h1{
 }
 @media (max-width: 768px){
   h1 {
-    font-size: 35px;
-    line-height: 43px;
+    font-size: 28px;
+    line-height: 33px;
   }
   .main__header p {
-      font-size: 14px;
-      line-height: 17px;
+    font-size: 14px;
+    line-height: 17px;
   }
   .main__header {
       padding: 30px 0;
   }
   .main__photo img {
-      width: 375px;
-      height: 180px;
+    width: 325px;
+    height: auto;
   }
   .main__photo {
       top: 75px;
-      right: -8px;
+      right: 0;
   }
 }
 @media (max-width: 414px){
