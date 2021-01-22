@@ -124,13 +124,47 @@
 }
 
 @media (max-width: 992px){
-    
+  .kamaz2 {
+    display: none;
+  }
 }
 @media (max-width: 768px){
   
 }
+@media (max-width: 575px){
+  .union img {
+    width: 270px;
+  }
+}
 @media (max-width: 414px){
-
+  .union {
+    width: 220px;
+  }
+  .union span {
+    font-size: 12px;
+  }
+  .union img {
+    width: 220px;
+  }
+  .right {
+    width: 73%;
+  }
+  .right .block {
+    width: 137px;
+  }
+}
+@media (max-width: 480px){
+  .right .block {
+    width: 120px;
+  }
+}
+@media (max-width: 344px){
+  .marketplace__span span {
+    font-size: 17px;
+  }
+  .marketplace__line2 {
+    display: none;
+  }
 }
 @media (max-width: 320px){
 

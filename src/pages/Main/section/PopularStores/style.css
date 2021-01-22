@@ -139,7 +139,35 @@ button.tooltip__button:hover{
   .popularStores__text p {
     font-size: 14px;
   }
+
+  button.tooltip__button {
+    right: 18%;
+  }
 }
+
+@media screen and (max-width: 575px) {
+  .swiper-button-next {
+    top: 33px;
+    right: 75px;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .swiper-button-prev {
+    top: 33px;
+    right: 125px;
+    left: auto;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .popularStores__block {
+    padding: 0;
+  }
+  button.tooltip__button {
+    right: auto;
+    left: 100px;
+  }
+}
+
 @media (max-width: 414px){
 
 }

@@ -51,45 +51,10 @@
     }
 }
 @media (max-width: 768px){
-  .manufacturers__photo1{
-    width: 130px;
-    height: 52px;
-  }
-  .manufacturers__photo2{
-    width: 130px;
-    height: 42px;
-  }
-  .manufacturers__photo3{
-    width: 125px;
-    height: 55px;
-  }
-  .manufacturers__photo4{
-    width: 115px;
-    height: 75px;
-  }
-  .manufacturers__photo5{
-    width: 132px;
-    height: 36px;
-  }
-  .manufacturers__photo6{
-    width: 130px;
-    height: 58px;
-  }
-  .manufacturers__photo7{
-    width: 75px;
-    height: 96px;
-  }
-  .manufacturers__photo8{
-    width: 134px;
-    height: 54px;
-  }
-  .manufacturers__photo9{
-    width: 130px;
-    height: 32px;
-  }
-  .manufacturers__photo10{
-    width: 112px;
-    height: 66px;
+
+  .manufacturers img {
+    width: 80%;
+    height: auto;
   }
 }
 @media (max-width: 414px){

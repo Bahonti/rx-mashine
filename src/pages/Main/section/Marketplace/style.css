@@ -152,6 +152,48 @@
     padding: 25px 31px 8px;
   }
 }
+@media (max-width: 575px) {
+  .marketplace__line2 {
+    width: 270px;
+    bottom: 0;
+    height: 60%;
+  }
+  .marketplace__photo img {
+    width: 270px;
+  }
+  .marketplace__photo {
+    right: 22%;
+  }
+  .marketplace__span span {
+    margin-left: 0;
+  }
+  .marketplace__span span {
+    font-size: 24px;
+  }
+
+  .marketplace__text--logo h3 span {
+    font-size: 22px;
+  }
+  .marketplace__text--logo h3 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 460px){
+  .marketplace__span span {
+    font-size: 21px;
+  }
+  .marketplace__photo img {
+    display: none;
+  }
+  .marketplace__line3 {
+    position: absolute;
+    height: 137px;
+    left: 34%;
+  }
+  .marketplace__text {
+    margin: 0 0 0 auto;
+  }
+}
 @media (max-width: 414px){
   .categories__blocks__photo h2 {
     font-size: 30px;

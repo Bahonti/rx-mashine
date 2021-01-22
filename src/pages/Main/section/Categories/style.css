@@ -104,6 +104,11 @@
 @media (max-width: 768px){
   
 }
+@media (max-width: 575px) {
+  .categories__blocks {
+    padding: 0 !important;
+  }
+}
 @media (max-width: 414px){
 
 }

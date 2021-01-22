@@ -451,11 +451,19 @@ div#popup-2 {
   .d-flex ul li:first-child {
     margin-right: 10px;
   }
-  .menu__input input {
-    width: 270px;
-    padding: 9px 16px;
+  .headder__logo img {
+    width: 80px;
   }
-  
+  .menu__input input {
+    width: 230px;
+    padding: 9px 12px;
+  }
+  .menu__catalog {
+    padding: 8px 13px;
+  }
+  li.favorites a {
+    font-size: 11px;
+  }
   .menu__catalog a {
     font-size: 12px;
     line-height: 15px;
@@ -468,8 +476,29 @@ div#popup-2 {
   }
 }
 @media (max-width: 768px){
+
+  .menu {
+    flex-flow: row wrap;
+  }
+
+  .d-flex ul {
+    justify-content: space-evenly;
+  }
+
+  .menu li:nth-child(3) {
+    margin-right: calc(100% - 390px);
+  }
+
+  .contacts li a {
+    font-size: 10px;
+  }
+
+  .contacts li.contact {
+    margin-left: 5px;
+  }
+  
   ul.contacts.buttons {
-    width: 75%;
+    width: 65%;
   }
   ul.contacts.buttons li button {
     font-size: 8px;
@@ -528,7 +557,37 @@ div#popup-2 {
     height: auto;
   }
 }
+@media screen and (max-width: 575px) {
+  .header__contacts .container .contacts:first-child {
+    margin-right: 15px;
+  }
+  ul.contacts:last-child {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 575px) {
+  .d-flex ul {
+    width: 100%;
+  }
+  .header__hidden {
+    padding: 0;
+  }
+  .favorites {
+    display: none !important;
+  }
+}
+@media (max-width: 480px) {
+  .menu__catalog a {
+    display: none;
+  }
+}
 @media (max-width: 414px){
+  .menu li:nth-child(3) {
+    margin-right: 0;
+  }
+  .menu__input input {
+    width: 150px;
+  }
   ul.contacts.buttons {
     display:  none;
   }
@@ -545,14 +604,20 @@ div#popup-2 {
   .header__hidden{
     display: flex;
     background: rgba(0, 0, 43, 0.5);
-    padding: 8px 25px;
+  }
+  ul.menu.hidden-menu {
+    height: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  li.menu__link {
+    margin: 0 5px;
+    padding: 10px 0;
+    width: auto;
   }
   li.menu__link.hidden{
     display: none;
-  }
-  ul.menu.hidden-menu {
-    display:  flex;
-    justify-content:  space-between;
   }
   li.menu__link a {
     font-size: 12px;

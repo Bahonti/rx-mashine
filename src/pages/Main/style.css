@@ -60,6 +60,7 @@ h1{
 @media (max-width: 992px){
   .main__photo {
     width: auto;
+    top: 200px;
   }
   h1 {
     font-size: 35px;
@@ -67,7 +68,8 @@ h1{
   }
 
   .main__photo img {
-    width: 496px;
+    width: 415px;
+    height: auto;
   }
 }
 @media (max-width: 768px){
@@ -75,20 +77,23 @@ h1{
     font-size: 28px;
     line-height: 33px;
   }
+  h4 {
+    font-size: 22px;
+  }
   .main__header p {
     font-size: 14px;
     line-height: 17px;
   }
   .main__header {
-      padding: 30px 0;
+    padding: 30px 0 120px;
   }
   .main__photo img {
     width: 325px;
     height: auto;
   }
   .main__photo {
-      top: 75px;
-      right: 0;
+    top: 165px;
+    right: 10%;
   }
 }
 @media (max-width: 414px){
@@ -112,6 +117,12 @@ h1{
   .main__photo img {
       width:  353px;
       height: 173px;
+  }
+}
+@media (max-width: 380px) {
+  h1 {
+    font-size: 20px;
+    letter-spacing: normal;
   }
 }
 @media (max-width: 320px){

@@ -113,7 +113,8 @@
     font-size: 11px;
   }
   .bestOffer__tab span {
-    padding: 0 47px 20px;
+    padding: 0 41px 10px;
+    font-size: 18px;
   }
   .price {
     font-size: 15px;
@@ -122,8 +123,20 @@
   }
 }
 @media (max-width: 768px){
-  
+  .bestOffer__tab span {
+    padding: 0;
+    width: 25%;
+    justify-content: center;
+  }
 }
+
+@media screen and (max-width: 575px) {
+  .bestOffer {
+    margin-top: 70px;
+    padding: 0 15px;
+  }
+}
+
 @media (max-width: 414px){
   .bestOffer__tab span {
     font-size: 15px;
